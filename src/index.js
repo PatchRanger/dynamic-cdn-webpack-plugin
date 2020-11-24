@@ -75,7 +75,7 @@ export default class DynamicCdnWebpackPlugin {
                 } else if (varName == null) {
                     cb(null);
                 } else {
-                    cb(null, new ExternalModule(varName, 'var', modulePath));
+                    cb(null, new ExternalModule(varName, 'script', modulePath));
                 }
             });
         });
