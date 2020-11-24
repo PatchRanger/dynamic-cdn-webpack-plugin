@@ -35,13 +35,12 @@
     "externals"
   ],
   "dependencies": {
-    "html-webpack-include-assets-plugin": "^1.0.4",
     "read-pkg-up": "^4.0.0",
     "resolve-pkg": "^1.0.0"
   },
   "peerDependencies": {
     "module-to-cdn": "^3.1.1",
-    "webpack": "4"
+    "webpack": "5"
   },
   "devDependencies": {
     "all-contributors-cli": "^5.4.0",
